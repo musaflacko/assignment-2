@@ -16,6 +16,8 @@ a {
 * element that contains the map. */
 .container, #map {
 height: 100%;
+padding: 0px;
+margin: 0px;
 }
       
 /* Optional: Makes the sample page fill the window. */
@@ -23,5 +25,5 @@ html,
 body {
 height: 90%;
 margin: 0;
-padding: 30px
+padding: 0;
 }
