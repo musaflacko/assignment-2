@@ -27,4 +27,9 @@ function initMap() {
   });
 }
 
-map.data.geoJson(data);
+function showTaxis() {
+  var marker = new google.maps.Marker({
+    position: new google.maps.LatLng(data.lat, data.lng),
+    map: map
+  });
+}
