@@ -1,0 +1,29 @@
+body {
+    padding: 15px;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+}
+
+a {
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+/* Always set the map height explicitly to define the size of the div
+* element that contains the map. */
+#map {
+height: 95%;
+}
+      
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+height: 90%;
+margin: 0;
+padding-top: 15px;
+padding-left: 150px;
+padding-right: 150px;
+}
