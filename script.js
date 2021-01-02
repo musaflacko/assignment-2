@@ -1,11 +1,10 @@
-/*let url = "https://api.data.gov.sg/v1/transport/taxi-availability";
+let url = "https://api.data.gov.sg/v1/transport/taxi-availability";
 
 fetch(url)
 .then(response => response.json()) 
 .then(function(data){
   console.log(data);
 });
-*/
 
 const successCallback = (position) => {
   console.log(position);
