@@ -6,10 +6,9 @@ fetch(url)
   console.log(data);
 });
 
+/*
 const successCallback = (position) => {
   console.log(position);
-  var latitude = GeolocationCoordinates[4];
-  var longitude = GeolocationCoordinates[5];
 };
 
 const errorCallback = (error) => {
@@ -17,6 +16,7 @@ const errorCallback = (error) => {
 };
 
 navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
+*/
 
 let map;
 
@@ -26,3 +26,5 @@ function initMap() {
     zoom: 15,
   });
 }
+
+map.data.geoJson(data);
