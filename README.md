@@ -9,21 +9,16 @@ alter the way the site displays the information to achieve their preferred goals
 # Features
 Feature 1 - Google Map<br />
 It allows targeted user to read the map at first glance and analyse their whereabouts.<br /><br />
+Feature 1 - Google Directions<br />
+It allows users to determine the route for them to reach their destination.<br /><br />
 
 # Technologies Used 
-- Header<br />
-This is to indicate the title of the application.<br /><br />
 - Boostrap<br />
 This is to arrange contents of the website. In a way, it makes the design of the website organised and responsive for most devices.<br /><br />
 - Google Map (API)<br />
-This is what makes the Google Map possible on this application. The similar Google Map used in any other map-navigating application.
-
-# Testing
-1. Current Location:<br />
-Try to allow get current location and verify that it is a success callback.<br />
-Try to disllow get current location and verify that it is a unsuccessful callback.<br />
+This is what makes the Google Map possible on this application. The similar Google Map used in any other map-navigating application.<br /><br />
+- Google Directions (API)<br />
+This creates route for users to reach their destination, marking its starting point to the ending point. <br /><br />
 
 # Credits
-Content: Original<br />
-Media: Orginal<br />
-Acknowledgement: None
+Acknowledgement: Google Cloud Services
