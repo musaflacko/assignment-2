@@ -1,24 +1,39 @@
 h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 35px;
+    font-size: 30px;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: lightblue;
 }
 
-a {
-    padding-right: 30px;
-    text-decoration: none;
-}
+#floating-panel {
+    position: absolute;
+    top: 60px;
+    left: 14%;
+    z-index: 5;
+    background-color: #fff;
+    padding: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    padding-left: 10px;
+    margin-top: 65px;
+    font-size: 14px;
+  }
 
-.container, #map {
-height: 100%;
+#map {
+height: 666px;
 padding: 0px;
 margin: 0px;
 }
       
-html,
-body {
+html, body {
 height: 90%;
 margin: 0;
-padding-top: 5px;
-padding-left: 25px;
-padding-right: 25px;
 }
