@@ -1,5 +1,5 @@
 # Assignment 2
-This is a simple interactive front-end web application.<br />
+This is a simple interactive front-end mobile navigation application.<br />
 
 # Design Process
 For this website, the design seems simple yet it is effective in achieving its goal.<br />
